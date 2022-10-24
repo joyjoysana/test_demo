@@ -204,4 +204,4 @@ def pixel(driver,action,canvas):
 def main():
     return "Welcome To The Ludo API\nPlease Go To \\roomcode for roomcodes"
 
-app.run()
+app.run(debug=False,host="0.0.0.0")
